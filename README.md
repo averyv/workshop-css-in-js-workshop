@@ -1,4 +1,4 @@
-# CS52 Workshops:  TITLE OF YOUR WORKSHOP
+# CS52 Workshops:  CSS in JavaScript
 
 ![](http://i.giphy.com/eUh8NINbZf9Ys.gif)
 
@@ -26,6 +26,20 @@ yarn add lodash.debounce react react-dom react-router axios
 ```
 
 ## Step by Step
+
+#### Step 1: Add your API Key
+
+Before we begin styling, edit the `youtube-api.js` file to include your API key.  You should use the same key you used for the short assignment. 
+
+Now start up your webpack-dev-server!  Open the localhost in your browser, and you should see the SA4 frontend webapp with some basic styling.
+
+```
+yarn start
+```
+
+#### Step 2: Let's get stylin'
+
+Now that we’ve made sure the webapp is functioning, let’s put our new CSS in JS skills to the test.
 
 * Explanations of the what **and** the why behind each step. Try to include:
   * higher level concepts
