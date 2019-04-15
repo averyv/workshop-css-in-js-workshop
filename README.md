@@ -6,11 +6,24 @@ Brief motivation here as well as in presentation
 
 ## Overview
 
-Summary of what we're about to do.
+At this point, we have all (hopefully) finished Short Assignment 4 and have some experience using React to build a video application.  For this workshop, we are going to restyle our SA4 using CSS in JS.  We’ll walk you through this process step by step, but feel free to change the styles up as you go!
 
 ## Setup
 
-Any necessary setup steps
+Download/clone your own copy of this repo so you have all of the necessary code on your computer. Cd into the workshop-css-in-js-workshop folder (if you couldn’t tell, this is a workshop). You should have a README.md, img folder, package.json, src folder, webpack.config.js, and yarn.lock. Since we are using javascript styling instead of CSS now, most of the files we will be working with will be javascript files. 
+
+Let's take care of a few more set-up steps before we begin (check again to make sure you are in the correct directory!).
+As we did in SA4, start by adding in support for React and JSX in babel: 
+
+```
+yarn add --dev @babel/preset-react @babel/plugin-proposal-class-properties
+```
+
+Now let’s take care of all our dependencies: 
+
+```
+yarn add lodash.debounce react react-dom react-router axios
+```
 
 ## Step by Step
 
